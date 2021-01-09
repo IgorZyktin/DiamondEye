@@ -11,7 +11,7 @@ import numpy as np
 from PIL import Image
 from colorama import Fore
 
-from diamond_eye.image_match import ImageSignature, normalized_distance
+from identity_manager.image_match import ImageSignature, normalized_distance
 from diamond_eye.utils import emit_and_save_event, MetaSingleton
 
 

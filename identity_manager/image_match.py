@@ -510,7 +510,7 @@ def preprocess_image(image: Image) -> np.ndarray:
     return np.array(image.convert('L'))
 
 
-def normalized_distance(_a, _b):
+def normalized_distance(_a, _b) -> float:
     """Compute normalized distance between two points.
 
     Computes || b - a || / ( ||b|| + ||a||)

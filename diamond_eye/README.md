@@ -13,23 +13,7 @@ called Nicord's catalogue (name is inspired by Sidney's Animal & Fowl Catalogue)
 Bunch of files on your hard drive. Updates once a month. 
 JSON all the way. No database. No server.
 
-## Algorithm
 
-Image comparison algorithm is based on paper by H. Chi Wong, 
-Marshall Bern and David Goldberg, published in Xerox Palo Alto Research Center.
-
-You can read the paper here: http://www.cs.cmu.edu/~hcwong/Pdfs/icip02.ps
-
-It has a reference implementation: https://www.pureftpd.org/project/libpuzzle
-
-Currently I'm using slightly modified version of 
-[Image Match](https://github.com/EdjoLabs/image-match).
-
-Unfortunately I was unable to launch original code from their repository due 
-to problems with building all of those outdated data science libraries. So I 
-had to cut the most important parts of the original code and rearrange it 
-slightly. Base idea of the Image Match was really suited for my needs, 
-but I wanted to avoid the need of full scale server any way possible.
 
 ## How to use
 
